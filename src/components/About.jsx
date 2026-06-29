@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
+import sahilProfile from '../assets/sahil_profile.png'; 
+
 
 // --- TrueFocus Sub-component ---
 const TrueFocus = ({
@@ -144,7 +146,7 @@ const About = () => {
               <div className="relative aspect-square rounded-2xl overflow-hidden border-4 border-blue-500/20 shadow-2xl group">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 flex items-center justify-center">
                   <img
-                    src="src/assets/sahil_profile.png"
+                    src={sahilProfile}
                     alt="Sahil Joshi"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
